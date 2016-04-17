@@ -123,6 +123,10 @@ p
 	color: #ECBC2F;
 }
 
+.v_line
+{
+	border: 1px #ECBC2F solid;
+}
 #footer div
 {
 	/*border: 1px #555 solid;*/
@@ -130,12 +134,12 @@ p
 
 #footer_informations
 {
-	border-right: 1px #ECBC2F solid;
+	/*border-right: 1px #ECBC2F solid;*/
 }
 
 #footer_bas
 {
-	border-right: 1px #ECBC2F solid;
+	/*border-right: 1px #ECBC2F solid;*/
 }
 /*--------------------------------------------------------------*/
 #reseaux_sociaux
