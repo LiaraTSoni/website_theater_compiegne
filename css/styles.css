@@ -1,0 +1,169 @@
+body
+{
+	background-image: url(../src/bg.jpg); /*Image de fond*/
+	background-position: center 10%;
+	background-repeat: no-repeat ;
+	background-attachment: fixed; /*Fige l'image pour qu'elle ne bouge pas au scroll*/
+	font-family: 'Oswald', sans-serif;
+	background-color: #411D0F;
+}
+
+a
+{
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+
+a:hover 
+{
+	text-decoration: underline;
+}
+
+p
+{
+
+}
+
+
+
+
+/*--------------------------------------------------------------*/
+#container
+{
+	width: 1130px;
+	margin: 0 auto;			/*Marge*/
+}
+/*--------------------------------------------------------------*/
+#header
+{
+	background-color: #f4c456;
+}
+#header:hover
+{
+}
+/*--------------------------------------------------------------*/
+#navigation li:hover
+{
+	background-color: #aa1715;
+	/*color: #f4c456;*/
+}
+
+#navigation li:hover a
+{
+	color: #f4c456;
+}
+/*--------------------------------------------------------------*/
+
+
+#slide
+{
+
+}
+/*--------------------------------------------------------------*/
+#body
+{
+
+}
+
+#article1, #article2
+{
+	width: 400px;
+	border-radius: 20px;
+	border: solid #f4c456;
+	background-color: rgba(255, 255, 255, 0.80);
+}
+#article1 h1, #article2 h1
+{
+	text-align: center;
+}
+#article1 p, #article2 p
+{
+	font-size: 16px;
+}
+
+.lettrine
+{
+	font-size: 45px;
+}
+
+.date_article
+{
+	font-size: 5px;
+	font-style: italic;
+}
+.link_article
+{
+	text-align: right;
+}
+
+.lire_la_suite
+{
+	color: #000;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: underline;
+	background-image: url(../src/article/lire_la_suite.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 32px;
+}
+.lire_la_suite img
+{
+
+}
+/*--------------------------------------------------------------*/
+
+#footer
+{
+	color: #ECBC2F;
+	background-color: #000000;
+}
+#footer a
+{
+	color: #ECBC2F;
+}
+
+#footer div
+{
+	/*border: 1px #555 solid;*/
+}
+/*--------------------------------------------------------------*/
+#reseaux_sociaux
+{
+	/*width:52px;*/
+	border: 1px #fff solid; /*DEV*/
+}
+#reseaux_sociaux div
+{
+	border: 1px #fff solid;/*dev*/
+	width:52px;
+	height: 52px;
+	margin:0 auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#reseaux_sociaux .facebook
+{
+	background-image: url(../src/facebook.png);
+}
+#reseaux_sociaux .facebook:hover
+{
+	background-image: url(../src/facebook-hover.png);
+}
+#reseaux_sociaux .twitter
+{
+	background-image: url(../src/twitter.png);
+}
+#reseaux_sociaux .twitter:hover
+{
+	background-image: url(../src/twitter-hover.png);
+}
+#reseaux_sociaux .google
+{
+	background-image: url(../src/google.png);
+}
+#reseaux_sociaux .google:hover
+{
+	background-image: url(../src/google-hover.png);
+}
+/*--------------------------------------------------------------*/
