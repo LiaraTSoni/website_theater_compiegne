@@ -127,6 +127,16 @@ p
 {
 	/*border: 1px #555 solid;*/
 }
+
+#footer_informations
+{
+	border-right: 1px #ECBC2F solid;
+}
+
+#footer_bas
+{
+	border-right: 1px #ECBC2F solid;
+}
 /*--------------------------------------------------------------*/
 #reseaux_sociaux
 {
