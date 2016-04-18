@@ -49,6 +49,7 @@ p
 	list-style-type: none; /*del puce*/
 	margin: 0;
 	padding: 0;
+	display: inline-block; /*Affichage horiwontal*/
 }
 
 #navigation li:hover
@@ -139,6 +140,7 @@ p
 {
 	padding: 5px;
 	/*border: 1px #555 solid;*/
+	display: inline-block;
 }
 
 #footer_bas li, #footer_bas ul
@@ -161,6 +163,7 @@ p
 	margin:0 auto;
 	background-repeat: no-repeat;
 	background-position: center center;
+	display: inline-block;
 }
 #reseaux_sociaux .facebook
 {
