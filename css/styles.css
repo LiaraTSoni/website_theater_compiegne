@@ -173,3 +173,12 @@ p
 	background-image: url(../src/google-hover.png);
 }
 /*--------------------------------------------------------------*/
+#aside
+{
+	width: 200px;
+	border-radius: 20px;
+	border: solid #f4c456;
+	background: #f4c456;
+	padding: 10px;
+}
+/*--------------------------------------------------------------*/
