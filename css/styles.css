@@ -135,9 +135,10 @@ p
 	color: #ECBC2F;
 }
 
-.v_line
+#footer .v_line
 {
 	border: 1px #ECBC2F solid;
+	padding: 0;
 }
 #footer div
 {
