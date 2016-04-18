@@ -130,6 +130,7 @@ p
 {
 	color: #ECBC2F;
 	background-color: #000000;
+	text-align: center;
 }
 #footer a
 {
@@ -152,7 +153,7 @@ p
 
 #footer_informations
 {
-	/*border-right: 1px #ECBC2F solid;*/
+	width: 375px;
 }
 
 #footer_bas li, #footer_bas ul
@@ -161,21 +162,23 @@ p
 	padding: 0;
 	list-style-type: none; /*del puce*/
 }
+
+#footer_bas
+{
+	width: 375px;
+}
 /*--------------------------------------------------------------*/
 #reseaux_sociaux
 {
-	/*width:52px;*/
-	border: 1px #fff solid; /*DEV*/
+	width: 330px;
 }
 #reseaux_sociaux div
 {
-	border: 1px #fff solid;/*dev*/
 	width:52px;
 	height: 52px;
 	margin:0 auto;
 	background-repeat: no-repeat;
 	background-position: center center;
-	display: inline-block;
 }
 #reseaux_sociaux .facebook
 {
