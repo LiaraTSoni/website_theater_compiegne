@@ -44,9 +44,11 @@ p
 {
 }
 /*--------------------------------------------------------------*/
-#navigation ul
+#navigation ul, #navigation li
 {
 	list-style-type: none; /*del puce*/
+	margin: 0;
+	padding: 0;
 }
 
 #navigation li:hover
@@ -139,8 +141,10 @@ p
 	/*border: 1px #555 solid;*/
 }
 
-#footer_bas li
+#footer_bas li, #footer_bas ul
 {
+	margin: 0;
+	padding: 0;
 	list-style-type: none; /*del puce*/
 }
 /*--------------------------------------------------------------*/
