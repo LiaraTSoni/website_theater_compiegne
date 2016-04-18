@@ -71,6 +71,8 @@ p
 	border-radius: 20px;
 	border: solid #f4c456;
 	background-color: rgba(255, 255, 255, 0.80);
+	padding: 10px;
+	line-height: 22px; /*Interlignage*/
 }
 #article1 h1, #article2 h1
 {
@@ -84,6 +86,7 @@ p
 .lettrine
 {
 	font-size: 45px;
+
 }
 
 .date_article
@@ -129,6 +132,7 @@ p
 }
 #footer div
 {
+	padding: 5px;
 	/*border: 1px #555 solid;*/
 }
 
