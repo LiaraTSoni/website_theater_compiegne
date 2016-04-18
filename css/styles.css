@@ -138,8 +138,9 @@ p
 
 #footer .v_line
 {
+	height: 100px;
 	border: 1px #ECBC2F solid;
-	padding: 0;
+	padding: 0px;
 }
 #footer div
 {
