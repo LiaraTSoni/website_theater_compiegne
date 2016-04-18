@@ -49,7 +49,7 @@ p
 	list-style-type: none; /*del puce*/
 	margin: 0;
 	padding: 0;
-	display: inline-block; /*Affichage horiwontal*/
+	display: inline-block; /*Affichage horizontal*/
 }
 
 #navigation li:hover
