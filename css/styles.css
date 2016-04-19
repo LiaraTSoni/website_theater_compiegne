@@ -8,6 +8,7 @@ body
 	background-attachment: fixed; /*Fige l'image pour qu'elle ne bouge pas au scroll*/
 	font-family: 'Oswald', sans-serif;
 	background-color: #411D0F;
+	padding-top: 100px;
 }
 
 a
@@ -29,6 +30,7 @@ p
 #header.postfix
 {
 	position: fixed;
+	top: 0;
 	width: 1130px;
 }
 
@@ -53,6 +55,11 @@ p
 {
 	width: 1130px;
 	margin: 0 auto;			/*Marge*/
+}
+
+#begin
+{
+	margin-bottom: 100px;
 }
 /*--------------------------------------------------------------*/
 #header
