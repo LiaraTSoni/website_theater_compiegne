@@ -26,7 +26,20 @@ p
 
 }
 
+.l_float
+{
+	float: left;
+}
 
+.r_float
+{
+	float: right;
+}
+
+.clearfix
+{
+	clear: both;
+}
 
 
 /*--------------------------------------------------------------*/
