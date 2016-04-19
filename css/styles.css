@@ -182,7 +182,7 @@ p
 #reseaux_sociaux
 {
 	width: 330px;
-	border: 1px #555 solid;
+	/*border: 1px #555 solid; */
 	/*padding-top: 100px; */
 	margin-top: 20px;
 }
