@@ -26,6 +26,12 @@ p
 
 }
 
+#header.postfix
+{
+	position: fixed;
+	width: 1130px;
+}
+
 .l_float
 {
 	float: left;
