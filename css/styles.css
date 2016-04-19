@@ -160,8 +160,6 @@ p
 #footer div
 {
 	padding: 5px;
-	/*border: 1px #555 solid;*/
-	display: inline-block;
 }
 
 #footer_informations
@@ -184,6 +182,8 @@ p
 #reseaux_sociaux
 {
 	width: 330px;
+	border: 1px #555 solid;
+	/*padding-top: 100px; */
 }
 #reseaux_sociaux div
 {
