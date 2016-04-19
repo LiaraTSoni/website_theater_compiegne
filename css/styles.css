@@ -184,6 +184,7 @@ p
 	width: 330px;
 	border: 1px #555 solid;
 	/*padding-top: 100px; */
+	margin-top: 20px;
 }
 #reseaux_sociaux div
 {
@@ -192,6 +193,7 @@ p
 	margin:0 auto;
 	background-repeat: no-repeat;
 	background-position: center center;
+	display: inline-block;
 }
 #reseaux_sociaux .facebook
 {
