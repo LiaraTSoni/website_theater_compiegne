@@ -62,17 +62,26 @@ p
 {
 	background-color: #f4c456;
 }
-#header:hover
-{
-}
 /*--------------------------------------------------------------*/
-#navigation ul li
+
+#navigation ul
+{
+	margin: 0;
+}
+
+#navigation ul, #navigation li
 {
 	list-style-type: none; /*del puce*/
 	margin: 0;
-	padding: 20;
+
 	display: block; /*Affichage horizontal*/
-	float: right;
+	float: left;
+}
+
+#navigation li a
+{
+	display: block;
+	padding: 70px 40px 10px;
 }
 
 #navigation ul li:hover
@@ -84,6 +93,7 @@ p
 #navigation li:hover a
 {
 	color: #f4c456;
+	text-decoration: none;
 }
 /*--------------------------------------------------------------*/
 
