@@ -66,15 +66,16 @@ p
 {
 }
 /*--------------------------------------------------------------*/
-#navigation ul, #navigation li
+#navigation ul li
 {
 	list-style-type: none; /*del puce*/
 	margin: 0;
-	padding: 0;
-	display: inline-block; /*Affichage horizontal*/
+	padding: 20;
+	display: block; /*Affichage horizontal*/
+	float: right;
 }
 
-#navigation li:hover
+#navigation ul li:hover
 {
 	background-color: #aa1715;
 	/*color: #f4c456;*/
