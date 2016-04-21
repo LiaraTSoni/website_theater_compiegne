@@ -27,7 +27,7 @@ p
 	
 }
 
-#header.postfix
+#header
 {
 	position: fixed;
 	top: 0;
@@ -55,6 +55,7 @@ p
 {
 	width: 1130px;
 	margin: 0 auto;			/*Marge*/
+	position: relative;
 }
 
 /*--------------------------------------------------------------*/
@@ -70,7 +71,7 @@ p
 
 #navigation
 {
-	/*margin-right: 70px;*/
+	margin: 0 auto;
 }
 
 #navigation ul
@@ -295,6 +296,6 @@ p
 }
 #aside:hover
 {
-	right: 15px
+	right: 0px
 }
 /*--------------------------------------------------------------*/
