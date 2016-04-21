@@ -253,7 +253,7 @@ p
 #aside
 {
 	width: 200px;
-	border-radius: 20px;
+	border-radius: 20px 0 0 20px;
 	border: solid #f4c456;
 	background: #f4c456;
 	padding: 10px 5px;
@@ -263,6 +263,7 @@ p
 	top: 150px;
 	right: -150px;
 	transition: 250ms;
+	box-shadow: -4px 8px 10px black;
 }
 #aside h2
 {
