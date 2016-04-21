@@ -63,6 +63,10 @@ p
 	background-color: #f4c456;
 }
 /*--------------------------------------------------------------*/
+#logo
+{
+	margin: 15px 20px;
+}
 
 #navigation ul
 {
@@ -81,7 +85,8 @@ p
 #navigation li a
 {
 	display: block;
-	padding: 70px 40px 10px;
+	padding: 85px 40px 9px;
+	font-size: 19px;
 }
 
 #navigation ul li:hover
