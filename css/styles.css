@@ -68,6 +68,11 @@ p
 	margin: 15px 20px;
 }
 
+#navigation
+{
+	margin-right: 70px;
+}
+
 #navigation ul
 {
 	margin: 0;
@@ -85,13 +90,13 @@ p
 #navigation li a
 {
 	display: block;
-	padding: 85px 40px 9px;
+	padding: 40px 20px 54px;
+	margin: 0 20px;
 	font-size: 19px;
 }
 
 #navigation ul li:hover
 {
-	background-color: #aa1715;
 	/*color: #f4c456;*/
 }
 
@@ -99,6 +104,7 @@ p
 {
 	color: #f4c456;
 	text-decoration: none;
+	background-color: #aa1715;
 }
 /*--------------------------------------------------------------*/
 
