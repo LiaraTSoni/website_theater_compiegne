@@ -246,10 +246,31 @@ p
 	padding: 10px 5px;
 
 	text-align: center;
+	position: fixed;
+	top: 120px;
+	right: -150px;
+	transition: 250ms;
+}
 
+#aside p
+{
+	font-size: 14px;
+
+}
+
+#aside img
+{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
 }
 .date_aside
 {
 	font-weight: bold;
+	line-height: 15px;
+}
+#aside:hover
+{
+	right: 15px
 }
 /*--------------------------------------------------------------*/
