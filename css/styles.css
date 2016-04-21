@@ -70,12 +70,13 @@ p
 
 #navigation
 {
-	margin-right: 70px;
+	/*margin-right: 70px;*/
 }
 
 #navigation ul
 {
 	margin: 0;
+	padding: 0;
 }
 
 #navigation ul, #navigation li
@@ -90,8 +91,8 @@ p
 #navigation li a
 {
 	display: block;
-	padding: 40px 20px 54px;
-	margin: 0 20px;
+	padding: 40px 25px 54px;
+	margin: 0 26px;
 	font-size: 19px;
 }
 
