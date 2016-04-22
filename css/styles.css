@@ -136,7 +136,9 @@ p
 }
 #article1 h1, #article2 h1
 {
+	font-size: 2em;
 	text-align: center;
+	line-height: 35px;
 }
 #article1 p, #article2 p
 {
