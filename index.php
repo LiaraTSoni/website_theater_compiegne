@@ -8,7 +8,7 @@
 	<script src="./lib/bxslider/jquery.bxslider.min.js"></script>
 	<!-- bxSlider CSS file -->
 	<link href="./lib/bxslider/jquery.bxslider.css" rel="stylesheet" />
-	<title>Le Nouveau Théâtre de Compiègne</title>
+	<title>Accueil - Le Nouveau Théâtre de Compiègne</title>
 	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="./css/styles.css"></head>
 <body>
