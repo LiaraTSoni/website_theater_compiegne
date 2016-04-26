@@ -122,6 +122,17 @@ p
 {
 	z-index: 0;
 }
+
+.bx-wrapper .bx-viewport
+{
+	left: 0;
+	border: 0;
+	z-index: 0;
+}
+.bx-wrapper .bx-controls-direction a
+{
+	z-index: 0;
+}
 /*--------------------------------------------------------------*/
 #body
 {
@@ -311,8 +322,4 @@ p
 }
 /*--------------------------------------------------------------*/
 
-.bx-wrapper .bx-viewport
-{
-	left: 0;
-	border: 0;
-}
+
