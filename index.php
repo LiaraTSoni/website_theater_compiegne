@@ -8,7 +8,7 @@
 <body>
 	<div id="container">
 		<!-- __________________Header______________________ -->
-		<?php include("header.php"); ?>
+		<?php include("include/header.php"); ?>
 
 
 		<!-- _____________________________________________________ -->
@@ -55,12 +55,11 @@ Ateliers menés par Michèle d'Angelo, artiste circassienne, et Abel Chahbi, jon
 			<div class="clearfix"></div>
 		</div>
 
-
-<?php include("footer.php"); ?>
+<?php include("include/footer.php"); ?>
 
 </div>
 <!-- Aside -->
-<?php include("aside.php"); ?>
+<?php include("include/aside.php"); ?>
 
 </body>
 </html>
