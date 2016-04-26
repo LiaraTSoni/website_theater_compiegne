@@ -2,6 +2,12 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
+	<!-- jQuery library (served from Google) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="/js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
 	<title>Le Nouveau Théâtre de Compiègne</title>
 	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="./css/styles.css"></head>
@@ -13,7 +19,14 @@
 
 		<!-- _____________________________________________________ -->
 
-		<div id="slider">slider</div>
+		<div id="slider">
+		<ul>
+			<li><img src="/src/slider/1.png" alt="slide 1"></li>
+			<li><img src="/src/slider/2.png" alt="slide 2"></li>
+			<li><img src="/src/slider/3.png" alt="slide 3"></li>
+			<li><img src="/src/slider/4.png" alt="slide 4"></li>
+		</ul>
+		</div>
 
 		<!-- _____________________________________________________ -->
 
@@ -61,5 +74,8 @@ Ateliers menés par Michèle d'Angelo, artiste circassienne, et Abel Chahbi, jon
 <!-- Aside -->
 <?php include("include/aside.php"); ?>
 
+<script>$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});</script>
 </body>
 </html>
