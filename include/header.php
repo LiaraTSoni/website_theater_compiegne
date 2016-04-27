@@ -1,5 +1,5 @@
 		<div id="header" class="postfix">
-			<img id="logo" src="./src/logo.jpg" alt="Logo" class="l_float">
+			<a href="index.php"><img id="logo" src="./src/logo.jpg" alt="Logo" class="l_float"></a>
 			<!-- Logo -->
 			<div id="navigation" class="l_float">
 				<ul>
