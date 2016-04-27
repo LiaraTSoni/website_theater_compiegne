@@ -4,19 +4,19 @@
 			<div id="navigation" class="l_float">
 				<ul>
 					<li>
-						<a href="">Accueil</a>
+						<a href="./index.php">Accueil</a>
 					</li>
 					<li>
-						<a href="">La saison</a>
+						<a href="./la_saison.php">La saison</a>
 					</li>
 					<li>
-						<a href="">Billeterie</a>
+						<a href="./billeterie.php">Billeterie</a>
 					</li>
 					<li>
-						<a href="">Infos pratiques</a>
+						<a href="./infos_pratiques.php">Infos pratiques</a>
 					</li>
 					<li>
-						<a href="">Contact</a>
+						<a href="./contact.php">Contact</a>
 					</li>
 				</ul>
 			</div>
