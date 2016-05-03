@@ -11,9 +11,9 @@
 
 
 
-
-
-
+<div id="content">
+<?php include("include/form.php"); ?>
+	</div>
 
 
 
