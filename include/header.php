@@ -10,7 +10,7 @@
 						<a href="./la_saison.php">La saison</a>
 					</li>
 					<li>
-						<a href="./billeterie.php">Billeterie</a>
+						<a href="./billeterie.php">Billetterie</a>
 					</li>
 					<li>
 						<a href="./infos_pratiques.php">Infos pratiques</a>
