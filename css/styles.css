@@ -257,27 +257,27 @@ p
 	background-position: center center;
 	display: inline-block;
 }
-#reseaux_sociaux .facebook
+#reseaux_sociaux .facebook:hover
 {
 	background-image: url(../src/facebook.png);
 }
-#reseaux_sociaux .facebook:hover
+#reseaux_sociaux .facebook
 {
 	background-image: url(../src/facebook-hover.png);
 }
-#reseaux_sociaux .twitter
+#reseaux_sociaux .twitter:hover
 {
 	background-image: url(../src/twitter.png);
 }
-#reseaux_sociaux .twitter:hover
+#reseaux_sociaux .twitter
 {
 	background-image: url(../src/twitter-hover.png);
 }
-#reseaux_sociaux .google
+#reseaux_sociaux .google:hover
 {
 	background-image: url(../src/google.png);
 }
-#reseaux_sociaux .google:hover
+#reseaux_sociaux .google
 {
 	background-image: url(../src/google-hover.png);
 }
