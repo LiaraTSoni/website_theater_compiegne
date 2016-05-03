@@ -11,7 +11,7 @@
 
 
 
-<div id="content">
+<div id="form">
 <?php include("include/form.php"); ?>
 	</div>
 
