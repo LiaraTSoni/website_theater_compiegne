@@ -12,7 +12,7 @@ if (!isset($_POST["message"]) OR mb_strlen($_POST["message"]) == "") {
 }
 
 
-$to  = 'regis@media-management.fr'; // Destinataire
+$to  = 'valimero.ilou@gmail.com'; // Destinataire
 $subject = 'Formulaire du site';
 
 
