@@ -63,6 +63,7 @@ p
 #header
 {
 	background-color: #f4c456;
+	z-index: 2;
 }
 /*--------------------------------------------------------------*/
 #logo
@@ -93,7 +94,7 @@ p
 #navigation li a
 {
 	display: block;
-	padding: 40px 25px 0px;
+	padding: 40px 19px 44px;
 	margin: 0 26px;
 	font-size: 19px;
 }
@@ -112,10 +113,28 @@ p
 /*--------------------------------------------------------------*/
 
 
-#slide
+#slider
 {
-
+	z-index: 0;
 }
+
+.bxslider
+{
+	z-index: 0;
+	margin: 0;
+}
+
+.bx-wrapper .bx-viewport
+{
+	left: 0;
+	border: 0;
+	z-index: 0;
+}
+.bx-wrapper .bx-controls-direction a
+{
+	z-index: 0;
+}
+
 /*--------------------------------------------------------------*/
 #body
 {
@@ -238,27 +257,27 @@ p
 	background-position: center center;
 	display: inline-block;
 }
-#reseaux_sociaux .facebook
+#reseaux_sociaux .facebook:hover
 {
 	background-image: url(../src/facebook.png);
 }
-#reseaux_sociaux .facebook:hover
+#reseaux_sociaux .facebook
 {
 	background-image: url(../src/facebook-hover.png);
 }
-#reseaux_sociaux .twitter
+#reseaux_sociaux .twitter:hover
 {
 	background-image: url(../src/twitter.png);
 }
-#reseaux_sociaux .twitter:hover
+#reseaux_sociaux .twitter
 {
 	background-image: url(../src/twitter-hover.png);
 }
-#reseaux_sociaux .google
+#reseaux_sociaux .google:hover
 {
 	background-image: url(../src/google.png);
 }
-#reseaux_sociaux .google:hover
+#reseaux_sociaux .google
 {
 	background-image: url(../src/google-hover.png);
 }
@@ -304,3 +323,5 @@ p
 	right: 0px
 }
 /*--------------------------------------------------------------*/
+
+

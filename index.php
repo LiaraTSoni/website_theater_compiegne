@@ -2,40 +2,41 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Le Nouveau Théâtre de Compiègne</title>
+	<!-- jQuery library (served from Google) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="./lib/bxslider/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="./lib/bxslider/jquery.bxslider.css" rel="stylesheet" />
+	<title>Accueil - Le Nouveau Théâtre de Compiègne</title>
 	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="./css/styles.css"></head>
 <body>
 	<div id="container">
-		<!-- __________________________________________________ -->
-		<div id="header" class="postfix">
-			<img id="logo" src="./src/logo.jpg" alt="Logo" class="l_float">
-			<!-- Logo -->
-			<div id="navigation" class="l_float">
-				<ul>
-					<li>
-						<a href="">Accueil</a>
-					</li>
-					<li>
-						<a href="">La saison</a>
-					</li>
-					<li>
-						<a href="">Billeterie</a>
-					</li>
-					<li>
-						<a href="">Infos pratiques</a>
-					</li>
-					<li>
-						<a href="">Contact</a>
-					</li>
-				</ul>
-			</div>
-			<div class="clearfix"></div>
-		</div>
+		<!-- __________________Header______________________ -->
+		<?php include("include/header.php"); ?>
 
 		<!-- _____________________________________________________ -->
 
-		<div id="slider">slider</div>
+		<div id="slider" >
+			<ul class="bxslider">
+				<li>
+					<img src="./src/slider/1.jpg" alt="slide 1" />
+				</li>
+				<li>
+					<img src="./src/slider/2.jpg" alt="slide 2" />
+				</li>
+				<li>
+					<img src="./src/slider/3.jpg" alt="slide 3" />
+				</li>
+				<li>
+					<img src="./src/slider/4.jpg" alt="slide 4" />
+				</li>
+				<li>
+					<img src="./src/slider/5.jpg" alt="slide 5" />
+				</li>
+			</ul>
+		</div>
 
 		<!-- _____________________________________________________ -->
 
@@ -59,10 +60,10 @@ Au théâtre, il ne faut pas se fier au vocabulaire, ainsi la servante n’est p
 				<div class="texte_article">
 					<h1>Cirqu'en famille</h1>
 					<p class="lettrine">
-
 						Ateliers ludiques pour vivre en famille un moment de découverte et d'expression artistique autour du langage et du geste circassien. Jeux d'équilibre, jeux dans l'espace et manipulation d'objets que vous pourrez refaire à la maison !
-6-8 ans <br />
-Ateliers menés par Michèle d'Angelo, artiste circassienne, et Abel Chahbi, jongleur et manipulateur d'objets ou par Fiona Couster, intervenante cirque
+6-8 ans
+						<br />
+						Ateliers menés par Michèle d'Angelo, artiste circassienne, et Abel Chahbi, jongleur et manipulateur d'objets ou par Fiona Couster, intervenante cirque
 					</p>
 					<p class="date_article">Mardi 5 mars / 18h</p>
 				</div>
@@ -76,60 +77,15 @@ Ateliers menés par Michèle d'Angelo, artiste circassienne, et Abel Chahbi, jon
 			</div>
 			<div class="clearfix"></div>
 		</div>
-		<!--_____________________________________________________ -->
 
-		<!--  		<div id="youtube" align="center">
-		<iframe width="550" height="400" src="https://www.youtube.com/embed/C0GMVyng0Dc" frameborder="0" allowfullscreen></iframe>
+		<?php include("include/footer.php"); ?></div>
+	<!-- Aside -->
+	<?php include("include/aside.php"); ?>
 
-	</div>
-	-->
-	<!-- _____________________________________________________ -->
-
-	<div id="footer">
-		<div id="footer_informations" class="l_float">
-			<span>Adresse</span>
-			<br />
-			<span>Tel</span>
-			<br />
-			<span>Contact</span>
-		</div>
-		<div class="v_line l_float"></div>
-		<div id="footer_bas" class="l_float">
-			<ul>
-				<li>
-					<a href="">CGV</a>
-				</li>
-				<li>
-					<a href="">Plan du site</a>
-				</li>
-				<li>
-					<a href="">mentions légales</a>
-				</li>
-				<li>
-					<a href="">crédits</a>
-				</li>
-			</ul>
-		</div>
-		<div class="v_line l_float"></div>
-		<div id="reseaux_sociaux" class="l_float">
-			<div class="facebook"></div>
-			<div class="twitter"></div>
-			<div class="google"></div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-
-</div>
-<!-- Aside -->
-<div id="aside">
-	<h2>Prochain Spectacle</h2>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sint velit vero, temporibus, ut libero autem expedita eum perferendis, quisquam odio, ex. Vel odit obcaecati ipsum, fuga nemo perspiciatis sunt.
-	</p>
-	<p class="date_aside">Le Jeudi 5 Février</p>
-	<a href="#">
-		<img src="./src/aside.jpg" alt="Affiche pour faire feu de tout bois"></a>
-
-</div>
+	<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
 </body>
 </html>
