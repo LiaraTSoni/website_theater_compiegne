@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contact - Le Nouveau Théâtre de Compiègne</title>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
