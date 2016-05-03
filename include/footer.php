@@ -1,10 +1,11 @@
 	<div id="footer">
 		<div id="footer_informations" class="l_float">
-			<span>Adresse</span>
+			<span>nouveau-tdc@compiegne.fr</span>
 			<br />
-			<span>Tel</span>
+			<span>03 87 48 84 73</span>
 			<br />
-			<span>Contact</span>
+			<br />
+			<span>23 rue de Lozere - 60200 Compiègne</span>
 		</div>
 		<div class="v_line l_float"></div>
 		<div id="footer_bas" class="l_float">
